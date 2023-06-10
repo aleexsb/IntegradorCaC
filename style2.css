@@ -1,0 +1,108 @@
+body {
+    background-image: url(https://fondosmil.com/fondo/9846.jpg);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.estudiante {
+    margin-left: 50px;
+    border: 3px solid rgb(20, 128, 228);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.trainee {
+    margin-left: 50px;
+    border: 3px solid rgb(20, 128, 228);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.junior {
+    margin-left: 50px;
+    border: 3px solid rgb(20, 128, 228);
+    padding: 10px;
+    font-size: 20px;
+}
+
+.venta {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+#formulario {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.f1 {
+    padding: 10px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+.form-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.form-control {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-sub {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.btn-res {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+}

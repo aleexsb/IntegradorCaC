@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Comprar Tickets</title>
+</head>
+
+<body>
+    <article>
+        <section>
+            <div class="cards">
+                <div class="estudiante">
+                    <h2>Estudiante</h2>
+                    <p> Tienen un descuento</p>
+                    <p class="desc-e">80%</p>
+                    <p>*Presentar Documentación</p>
+                </div>
+                <div class="trainee">
+                    <h2>Trainee</h2>
+                    <p> Tienen un descuento</p>
+                    <p class="desc-t">50%</p>
+                    <p>*Presentar Documentación</p>
+                </div>
+                <div class="junior">
+                    <h2>Junior</h2>
+                    <p> Tienen un descuento</p>
+                    <p class="desc-j">15%</p>
+                    <p>*Presentar Documentación</p>
+                </div>
+            </div>
+            <div class="venta">
+                <p>VENTA</p>
+                <h2>VALOR DE TICKET: $ 200</h2>
+            </div>
+            <div class="container">
+                <h1>Formulario</h1>
+                <form id="formulario">
+                    <input class="f1" type="text" required="" placeholder="Nombre">
+                    <input class="f1" type="text" required="" placeholder="Apellido">
+                    <input class="f1" type="mail" required="" placeholder="Correo Electronico">
+                </form>
+                    <div class="form-group">
+                        <label for="selectField">Categoria:</label>
+                        <select class="form-control" id="select">
+                            <option value="">Seleccione</option>
+                            <option value="opt1">Estudiante</option>
+                            <option value="opt2">Trainee</option>
+                            <option value="opt3">Junior</option>
+                        </select>
+                    </div>
+                    <div class="form-group 2">
+                        <label for="numberField">Cantidad:</label>
+                        <input type="number" class="form-control" id="numero" min="1" max="50" >
+                    </div>
+                    <div class="botones">
+                        <button type="submit" class="btn-sub">Resumen</button>
+                        <button type="reset" class="btn-res">Reset</button>
+                    </div>
+                    <div class="total">
+                        <p class="t1">Total a Pagar: $</h3>
+                        <p class="pesos">0</p>
+                    </div>
+            </div>
+        </section>
+    </article>
+    <script src="main.js"></script>
+</body>
+
+</html>
+
+
